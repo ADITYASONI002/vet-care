@@ -1,0 +1,108 @@
+.cont-1{
+    background: url('https://catvettucson.com/wp-content/uploads/2018/02/The-Importance-of-Pet-Dental-Health-Cats.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: .8;
+    background-size: 100rem;
+    margin-top: .5rem ;
+    gap: 1.5rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 28% 28% 28%;
+    padding: 1rem;
+}
+.cont-1Child{
+
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.headTag{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(0, 0, 122);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.listItems{
+    text-align: center;
+    background: transparent;
+    opacity: 1;
+    padding: 4px 60px;
+    border: 2px solid rgb(0, 1, 105);
+    border-radius: 4px;
+}
+.listItems:hover{
+    background-color: rgba(210, 234, 255, 0.3);
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.1);
+    transition: all 0.5s ease;
+}
+
+
+
+@media (max-width:1050px){
+    .cont-1Child{
+        height: 26rem;
+    }
+    .headTag{
+        font-size: 2.1em;
+        font-weight: 600;
+        color: rgb(0, 0, 122);
+    }
+    .list{
+        font-size:1.2em ;
+    }
+    .listItems{
+        padding: 4px 30px;
+       }
+}
+@media(max-width:860px){
+    .cont-1Child{
+        height: 22rem;
+    }
+    .headTag{
+        font-size: 1.8em;
+        font-weight: 600;
+        color: rgb(0, 0, 122);
+    }
+    .list{
+        font-size:1em ;
+    }
+    .listItems{
+        padding: 4px 30px;
+       }
+}
+@media (max-width:700px){
+    .cont-1{
+        grid-template-columns: 40% 40%;
+        background-repeat: repeat-y;
+        background-size: auto;
+       }
+}
+@media (max-width:500px){
+   .cont-1{
+    grid-template-columns: 75%;
+    background-repeat: repeat-y;
+    background-size: auto;
+    margin-top: 5px;
+   }
+   .listItems{
+    padding: 4px 40px;
+   }
+}
+@media (max-width:290px){
+    .listItems{
+        padding: 4px 20px;
+       }
+}
