@@ -3,9 +3,9 @@ function Footer() {
     return (
         <>
 
-            <div class=" my-1">
+            <div class="my-1">
 
-                <footer class="text-dark text-center text-lg-start bg-body-tertiary">
+                <footer style={{backgroundColor:"aliceblue"}} class="text-dark text-center text-lg-start bg-body-tertiary ">
 
                     <div class=" p-4">
                         <div class="row mt-4">

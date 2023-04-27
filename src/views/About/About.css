@@ -1,0 +1,83 @@
+.aboutBg {
+  background: url("./images/bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100rem;
+  box-shadow: -1px 1px 400px 17px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: -1px 1px 400px 17px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: -1px 1px 400px 17px rgba(0, 0, 0, 0.5) inset;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutHeadTag{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: "Saira Stencil One", cursive;
+    margin-left: 1rem;
+    color: rgb(0, 0, 80);
+}
+.aboutBg > p {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: "Saira Stencil One", cursive;
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+}
+.aboutCont {
+  padding: 100px 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2em;
+}
+.aboutChildCont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+.aboutChildCont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  column-gap: 2rem;
+}
+.aboutContImg {
+    border-radius: 46% 54% 56% 44% / 43% 77% 23% 57% ;
+  width: 20rem;
+}
+.aboutRight{
+    width: 50%;
+}
+
+
+@media (max-width:768px){
+    .aboutChildCont1 {
+        flex-direction: column;
+        row-gap: 2rem;
+      }
+      .aboutChildCont2 {
+        flex-direction:column;
+        row-gap: 2rem;
+      }
+}
+@media (max-width:600px){
+    .aboutHeadTag{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+@media (max-width:300px){
+    .aboutContImg {
+        border-radius: 46% 54% 56% 44% / 43% 77% 23% 57% ;
+      width: 15rem;
+    }
+}
